@@ -1,0 +1,11 @@
+.all__items{
+    display:flex;
+   column-count: 2;
+   
+}
+.all__header{
+    background-color:F8F8F8  ;
+}
+.checkout{
+    margin-left: 200px;
+}
