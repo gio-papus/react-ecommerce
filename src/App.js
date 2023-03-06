@@ -6,19 +6,21 @@ import initialProducts from './assets/db';
 import Header  from './components/Header';
 import "./components/page.css"
 import Checkout from './components/Checkout';
+import Register from './components/Register';
 
 function App() {
   
   const[products,setProducts]=useState(initialProducts);
   return (
  <>
- <div className='all__header'>
+
+  <Register/>
   <Header/>
-  </div>
- <div className='all__items'> 
+ 
+
   <List products={products}/>
   <Checkout />
-  </div>
+  
  </>
   );
 }
