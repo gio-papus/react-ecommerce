@@ -19,4 +19,8 @@ cursor: pointer;
     width: fit-content;   
     cursor: pointer; 
     }
+.grid{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
     
