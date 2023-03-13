@@ -4,7 +4,7 @@ import "./styles/itemlist.css"
 
 function ItemList({id,title,price,img}) {
  const {cart,allInCart}=useContext(CartContext);
-// AGREGAR CONSTADOR PARA ULTIMO const [bought,setBought]=useState("")
+// AGREGAR CONTADOR PARA ULTIMO const [bought,setBought]=useState("")
   console.log(cart)
   const buy=()=>{
     allInCart({id,title,price,img})
