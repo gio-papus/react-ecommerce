@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from "../img/logoCuchillo.png"
 import Profile from "../img/davitiA.png"
-import "./header.css"
+import "./styles/header.css"
 
 export const Header = () => {
     return (

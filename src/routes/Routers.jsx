@@ -5,13 +5,16 @@ import CartPage from "../pages/CartPage"
 import ErrorPage from "../pages/ErrorPage"
 import "./routers.css"
 
+
 function Routers() {
   return (
         <BrowserRouter>
     <nav className="routers__nav--links">
         <Link to={"/"}>Login</Link><br></br>
-        <Link to={"/home"}>Home</Link><br></br>
+       
+     
         <Link to={"/cart"}>Cart</Link><br></br>
+    
     </nav>
 
         <Routes>
