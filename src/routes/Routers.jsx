@@ -12,6 +12,7 @@ function Routers() {
     <nav className="routers__nav--links">
         <Link to={"/"}>Login</Link><br></br>
        
+       <Link to={"/home"}>Home</Link><br></br>
      
         <Link to={"/cart"}>Cart</Link><br></br>
     

@@ -1,0 +1,1 @@
+no e podido borrar la informacion del main i hacer hacer merge pasen a la ram ecommerceV2 
