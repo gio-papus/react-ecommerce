@@ -6,6 +6,9 @@ function CartProvider({children}) {
     const allInCart=(product)=>{
         setCart([...cart,product])
     };
+    const removeCart=(updatedCart)=>{
+setCart(updatedCart);
+    }
   return (
    <CartContext.Provider value={{cart,allInCart}}>{children}</CartContext.Provider>
   );
