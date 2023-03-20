@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.items__img{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 30vh;
+    height: 30vh;
+}
+.plus{
+border: 1px solid black;
+width: fit-content;  
+cursor: pointer;  
+}
+.minus{
+    border: 1px solid black;
+    width: fit-content;   
+    cursor: pointer; 
+    }
+.grid{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+    

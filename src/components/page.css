@@ -1,0 +1,16 @@
+.all__items{
+    display:flex;
+   column-count: 2;
+   
+}
+
+.checkout{
+    margin-left: 200px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto ;
+    align-items: baseline;
+    grid-row: 2;
+    grid-column: 1 / 6;
+}
